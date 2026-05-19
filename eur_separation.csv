@@ -2,16 +2,16 @@
 Application,Current Week,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Risks/Issues
 Accedian,3,3,,,3,,,4,,,4,,,5,,,5,,,
 Allstream Assure1 (Devices),3,4,,,4,,,5,,,5,,,6,,,6,,,
-Allstream Salesforce,3,4,,,4,,,5,,,5,,,6,,,6,,,
+Allstream Salesforce,3,4,,,4,,,5,,,5,,,6,,,6,,,Getting Marcos onboarded will take time
 Assure1,3,12,,,12,,,13,,,13,,,14,,,14,,,
 ATP,3,5,,,5,,,6,,,6,,,7,,,7,,,
-BigPanda (QoS),3,6,,,6,,,7,,,7,,,8,,,8,,,
+BigPanda (QoS),3,6,,,6,,,7,,,7,,,8,,,8,,,Week 8 is DAS42 off-site. Dev work will be impacted.
 ENA Dynamics,3,13,,,13,,,14,,,14,,,15,,,15,,,
-ENA Qualtrics,3,7,,,7,,,8,,,8,,,9,,,9,,,
-Fiber Metrics,3,8,,,8,,,9,,,9,,,10,,,10,,,
+ENA Qualtrics,3,7,,,7,,,8,,,8,,,9,,,9,,,Week 8 is DAS42 off-site. Dev work will be impacted.
+Fiber Metrics,3,8,,,8,,,9,,,9,,,10,,,10,,,Week 8 is DAS42 off-site. Dev work will be impacted.
 Genesys,3,10,,,10,,,11,,,11,,,12,,,12,,,
 Great Plains,3,3,,50%,3,,,4,,,4,,,5,,,5,,,Need to determine which abbreviations designate European entities and validate share.
-IQGeo/GESW,3,7,,,7,,,8,,,8,,,9,,,9,,,
+IQGeo/GESW,3,7,,,7,,,8,,,8,,,9,,,9,,,Week 8 is DAS42 off-site. Dev work will be impacted.
 IQGeo/Network Manager/My World (GIS)/ESRI,3,12,,,12,,,13,,,13,,,14,,,14,,,
 Medallia,3,11,,,11,,,12,,,12,,,13,,,13,,,
 Metasolv/M6,3,2,2,100%,2,,,3,,,3,,75%,4,,,4,,50%,Need to validate share method.
@@ -19,16 +19,16 @@ Nautobot,3,14,,,14,,,15,,,15,,,16,,,16,,,
 OneStream,3,12,,,12,,,13,,,13,,,14,,,14,,,
 Oracle EBS (History),3,10,,,10,,,11,,,11,,,12,,,12,,,
 Oracle Fusion,3,3,,,3,,,4,,,4,,,5,,,5,,,
-QoS Netsuite,3,8,,,8,,,9,,,9,,,10,,,10,,,
+QoS Netsuite,3,8,,,8,,,9,,,9,,,10,,,10,,,Week 8 is DAS42 off-site. Dev work will be impacted.
 Salesforce (SF1),3,3,,25%,3,,,4,,,4,,,5,,,5,,,Need to validate share method.
-Salesloft,3,6,,,6,,,7,,,7,,,8,,,8,,,
+Salesloft,3,6,,,6,,,7,,,7,,,8,,,8,,,Week 8 is DAS42 off-site. Dev work will be impacted.
 "ServiceNow CMDB, GRC, ITSM ",3,5,,,5,,,6,,,6,,,7,,,7,,,
-ServiceNow SA (TSM),3,6,,,6,,,7,,,7,,,8,,,8,,,
-ServiceNow SOM (OMT),3,8,,,8,,,9,,,9,,,10,,,10,,,
+ServiceNow SA (TSM),3,6,,,6,,,7,,,7,,,8,,,8,,,Week 8 is DAS42 off-site. Dev work will be impacted.
+ServiceNow SOM (OMT),3,8,,,8,,,9,,,9,,,10,,,10,,,Week 8 is DAS42 off-site. Dev work will be impacted.
 Site Tracker,3,13,,,13,,,14,,,14,,,15,,,15,,,
 SPIFF,3,14,,,14,,,15,,,15,,,16,,,16,,,
 TEOCO,3,10,,,10,,,11,,,11,,,12,,,12,,,
-Workday,3,2,2,100%,2,,,3,,,3,,,4,,,4,,,Need to validate share method.
+Workday,3,2,2,100%,2,,,3,,,3,,50%,4,,,4,,,Need to validate share method.
 xMatters,3,14,,,14,,,15,,,15,,,16,,,16,,,
 Zoom Phone,3,9,,,9,,,10,,,10,,,11,,,11,,,
 ZoomInfo Contacts,3,10,,,10,,,11,,,11,,,12,,,12,,,
