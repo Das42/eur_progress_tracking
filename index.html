@@ -205,18 +205,48 @@
     line-height: 1.3;
   }
 
-  .metric-value {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 1;
-    color: var(--navy);
+  .metric-counts {
+    display: flex;
+    gap: 0;
+    margin-top: 4px;
   }
 
+  .metric-count {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 7px 8px 6px;
+    border-radius: 5px;
+  }
+
+  .metric-count:first-child { margin-right: 4px; background: var(--blue-lt); }
+  .metric-count:last-child  { background: var(--green-lt); }
+
+  .metric-count-val {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .metric-count:first-child .metric-count-val { color: var(--blue); }
+  .metric-count:last-child  .metric-count-val { color: var(--green); }
+
+  .metric-count-label {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+  }
+
+  .metric-count:first-child .metric-count-label { color: var(--blue); }
+  .metric-count:last-child  .metric-count-label { color: var(--green); }
+
   .metric-sub {
-    font-size: 11px;
+    font-size: 10px;
     color: var(--muted);
-    margin-top: 4px;
+    margin-top: 6px;
     font-weight: 400;
   }
 
@@ -679,12 +709,54 @@
 
   <!-- Metric cards -->
   <div class="metrics-strip">
-    <div class="metric-card"><div class="metric-label">Discovery</div><div class="metric-value" id="m-0">—</div><div class="metric-sub" id="ms-0"></div></div>
-    <div class="metric-card"><div class="metric-label">Create Val. Tables</div><div class="metric-value" id="m-1">—</div><div class="metric-sub" id="ms-1"></div></div>
-    <div class="metric-card"><div class="metric-label">Validation</div><div class="metric-value" id="m-2">—</div><div class="metric-sub" id="ms-2"></div></div>
-    <div class="metric-card"><div class="metric-label">dbt Modeling</div><div class="metric-value" id="m-3">—</div><div class="metric-sub" id="ms-3"></div></div>
-    <div class="metric-card"><div class="metric-label">Extract Approved</div><div class="metric-value" id="m-4">—</div><div class="metric-sub" id="ms-4"></div></div>
-    <div class="metric-card"><div class="metric-label">Playbook / Docs</div><div class="metric-value" id="m-5">—</div><div class="metric-sub" id="ms-5"></div></div>
+    <div class="metric-card">
+      <div class="metric-label">Discovery</div>
+      <div class="metric-counts">
+        <div class="metric-count"><div class="metric-count-val" id="m-ip-0">—</div><div class="metric-count-label">In Progress</div></div>
+        <div class="metric-count"><div class="metric-count-val" id="m-co-0">—</div><div class="metric-count-label">Complete</div></div>
+      </div>
+      <div class="metric-sub" id="ms-0"></div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">Create Val. Tables</div>
+      <div class="metric-counts">
+        <div class="metric-count"><div class="metric-count-val" id="m-ip-1">—</div><div class="metric-count-label">In Progress</div></div>
+        <div class="metric-count"><div class="metric-count-val" id="m-co-1">—</div><div class="metric-count-label">Complete</div></div>
+      </div>
+      <div class="metric-sub" id="ms-1"></div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">Validation</div>
+      <div class="metric-counts">
+        <div class="metric-count"><div class="metric-count-val" id="m-ip-2">—</div><div class="metric-count-label">In Progress</div></div>
+        <div class="metric-count"><div class="metric-count-val" id="m-co-2">—</div><div class="metric-count-label">Complete</div></div>
+      </div>
+      <div class="metric-sub" id="ms-2"></div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">dbt Modeling</div>
+      <div class="metric-counts">
+        <div class="metric-count"><div class="metric-count-val" id="m-ip-3">—</div><div class="metric-count-label">In Progress</div></div>
+        <div class="metric-count"><div class="metric-count-val" id="m-co-3">—</div><div class="metric-count-label">Complete</div></div>
+      </div>
+      <div class="metric-sub" id="ms-3"></div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">Extract Approved</div>
+      <div class="metric-counts">
+        <div class="metric-count"><div class="metric-count-val" id="m-ip-4">—</div><div class="metric-count-label">In Progress</div></div>
+        <div class="metric-count"><div class="metric-count-val" id="m-co-4">—</div><div class="metric-count-label">Complete</div></div>
+      </div>
+      <div class="metric-sub" id="ms-4"></div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">Playbook / Docs</div>
+      <div class="metric-counts">
+        <div class="metric-count"><div class="metric-count-val" id="m-ip-5">—</div><div class="metric-count-label">In Progress</div></div>
+        <div class="metric-count"><div class="metric-count-val" id="m-co-5">—</div><div class="metric-count-label">Complete</div></div>
+      </div>
+      <div class="metric-sub" id="ms-5"></div>
+    </div>
   </div>
 
   <!-- Selector -->
@@ -846,12 +918,16 @@ const STATUS_COLOR = { complete:'var(--green)', 'in-progress':'var(--blue)', 'at
 function renderMetrics(rows) {
   const total = rows.length;
   PHASES.forEach((ph, i) => {
-    const count = rows.filter(r => {
-      const s = phaseStatus(r[`${ph}|Target Week`], r[`${ph}|Actual Week`], r[`${ph}|Progress`], parseInt(r['Current Week']) || CURRENT_WEEK);
-      return s !== 'not-started';
-    }).length;
-    document.getElementById(`m-${i}`).textContent = count;
-    document.getElementById(`ms-${i}`).textContent = `of ${total} sources`;
+    const cw = CURRENT_WEEK;
+    let inProgress = 0, complete = 0;
+    rows.forEach(r => {
+      const s = phaseStatus(r[`${ph}|Target Week`], r[`${ph}|Actual Week`], r[`${ph}|Progress`], parseInt(r['Current Week']) || cw);
+      if (s === 'complete')    complete++;
+      if (s === 'in-progress' || s === 'at-risk') inProgress++;
+    });
+    document.getElementById(`m-ip-${i}`).textContent = inProgress;
+    document.getElementById(`m-co-${i}`).textContent = complete;
+    document.getElementById(`ms-${i}`).textContent   = `of ${total} sources`;
   });
 }
 
