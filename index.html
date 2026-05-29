@@ -710,7 +710,7 @@
   <!-- Metric cards -->
   <div class="metrics-strip">
     <div class="metric-card">
-      <div class="metric-label">Discovery</div>
+      <div class="metric-label">Access</div>
       <div class="metric-counts">
         <div class="metric-count"><div class="metric-count-val" id="m-ip-0">—</div><div class="metric-count-label">In Progress</div></div>
         <div class="metric-count"><div class="metric-count-val" id="m-co-0">—</div><div class="metric-count-label">Complete</div></div>
@@ -718,7 +718,7 @@
       <div class="metric-sub" id="ms-0"></div>
     </div>
     <div class="metric-card">
-      <div class="metric-label">Create Val. Tables</div>
+      <div class="metric-label">Discovery</div>
       <div class="metric-counts">
         <div class="metric-count"><div class="metric-count-val" id="m-ip-1">—</div><div class="metric-count-label">In Progress</div></div>
         <div class="metric-count"><div class="metric-count-val" id="m-co-1">—</div><div class="metric-count-label">Complete</div></div>
@@ -726,7 +726,7 @@
       <div class="metric-sub" id="ms-1"></div>
     </div>
     <div class="metric-card">
-      <div class="metric-label">Validation</div>
+      <div class="metric-label">Extracts / Tables Created</div>
       <div class="metric-counts">
         <div class="metric-count"><div class="metric-count-val" id="m-ip-2">—</div><div class="metric-count-label">In Progress</div></div>
         <div class="metric-count"><div class="metric-count-val" id="m-co-2">—</div><div class="metric-count-label">Complete</div></div>
@@ -734,7 +734,7 @@
       <div class="metric-sub" id="ms-2"></div>
     </div>
     <div class="metric-card">
-      <div class="metric-label">dbt Modeling</div>
+      <div class="metric-label">Validation</div>
       <div class="metric-counts">
         <div class="metric-count"><div class="metric-count-val" id="m-ip-3">—</div><div class="metric-count-label">In Progress</div></div>
         <div class="metric-count"><div class="metric-count-val" id="m-co-3">—</div><div class="metric-count-label">Complete</div></div>
@@ -742,7 +742,7 @@
       <div class="metric-sub" id="ms-3"></div>
     </div>
     <div class="metric-card">
-      <div class="metric-label">Extract Approved</div>
+      <div class="metric-label">Ext. / Tables Approved</div>
       <div class="metric-counts">
         <div class="metric-count"><div class="metric-count-val" id="m-ip-4">—</div><div class="metric-count-label">In Progress</div></div>
         <div class="metric-count"><div class="metric-count-val" id="m-co-4">—</div><div class="metric-count-label">Complete</div></div>
@@ -797,11 +797,11 @@
           <tr class="phase-row">
             <th rowspan="2">Application</th>
             <th rowspan="2">Cur. Wk</th>
+            <th colspan="3">Access</th>
             <th colspan="3">Discovery</th>
-            <th colspan="3">Create Val. Tables</th>
+            <th colspan="3">Extracts / Tables Created</th>
             <th colspan="3">Validation</th>
-            <th colspan="3">dbt Modeling</th>
-            <th colspan="3">Extract Approved</th>
+            <th colspan="3">Ext. / Tables Approved</th>
             <th colspan="3">Playbook / Docs</th>
             <th rowspan="2" style="text-align:left">Risks / Issues</th>
           </tr>
@@ -825,15 +825,15 @@
 
 <script>
 const PHASES = [
+  'Access',
   'Discovery',
-  'Create Validation Tables',
+  'Extracts Provided / Tables Created',
   'Validation',
-  'dbt Modeling',
-  'Extract Approved',
+  'Extracts / Tables Approved',
   'Playbook/Documentation'
 ];
 
-const PHASE_SHORT = ['Discovery', 'Val. Tables', 'Validation', 'dbt Model', 'Ext. Approved', 'Docs'];
+const PHASE_SHORT = ['Access', 'Discovery', 'Extracts / Tables', 'Validation', 'Ext. Approved', 'Docs'];
 
 let allRows = [];
 let selectedSource = 'ALL';
