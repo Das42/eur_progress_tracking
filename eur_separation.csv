@@ -1,23 +1,21 @@
 ,,Access,,,Discovery,,,Extracts Provided / Tables Created,,,Validation,,,Extracts / Tables Approved,,,Playbook/Documentation,,,
 Application,Current Week,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Risks/Issues
-Accedian,4,5,,,5,,,6,,,6,,,7,,,7,,,
-Assure1,4,5,,,5,,,6,,,6,,,7,,,7,,,
-ATP,4,8,,,8,,,9,,,9,,,10,,,10,,,
+Accedian,4,5,,,5,,,6,,,6,,,7,,,7,,,Access risk
+Assure1,4,5,,,5,,,6,,,6,,,7,,,7,,,Access risk
+ATP,4,8,,,8,,,9,,,9,,,10,,,10,,,Access risk
 Great Plains,4,3,3,100%,4,4,100%,5,,,5,,,6,,,6,,,
-IQGeo/GESW,4,5,,,5,,,6,,,6,,,7,,,7,,,
-IQGeo/Network Manager/My World (GIS)/ESRI,4,7,,,7,,,8,,,8,,,9,,,9,,,
+IQGeo/GESW,4,5,,,5,,,6,,,6,,,7,,,7,,,Access risk
+IQGeo/Network Manager/My World (GIS)/ESRI,4,7,,,7,,,8,,,8,,,9,,,9,,,Access risk
 Medallia,4,9,,,9,,,10,,,10,,,11,,,11,,,
-Metasolv/M6,4,4,,50%,4,,50%,5,,,5,,,6,,,6,,,
+Metasolv/M6,4,4,,50%,4,,50%,5,,,5,,,6,,,6,,,Access risk
 Nautobot,4,11,,,11,,,12,,,12,,,13,,,13,,,
-OneStream,4,8,,,8,,,9,,,9,,,10,,,10,,,
+OneStream,4,8,,,8,,,9,,,9,,,10,,,10,,,Access risk
 Oracle EBS (History),4,6,,,6,,,7,,,7,,,8,,,8,,,
-Oracle Fusion,4,3,,50%,4,,50%,5,,,5,,,6,,,6,,,
+Oracle Fusion,4,3,,50%,4,,50%,5,,,5,,,6,,,6,,,Access risk
 Salesforce (SF1),4,3,,50%,4,,50%,5,,,5,,,6,,,6,,,
 Salesloft,4,6,,50%,6,,50%,7,,,7,,,8,,,8,,,
 "ServiceNow CMDB, ITSM ",4,6,,,6,,,7,,,7,,,8,,,8,,,
-ServiceNow SA (TSM),4,8,,,8,,,9,,,9,,,10,,,10,,,
-ServiceNow SOM (OMT),4,10,,,10,,,11,,,11,,,12,,,12,,,
-TEOCO,4,11,,,11,,,12,,,12,,,13,,,13,,,
-Workday,4,5,,,5,,50%,6,,,6,,,7,,,7,,,
+TEOCO,4,11,,,11,,,12,,,12,,,13,,,13,,,Access risk
+Workday,4,5,,50%,5,,50%,6,,,6,,,7,,,7,,,
 xMatters,4,13,,,13,,,14,,,14,,,15,,,15,,,
 zDAF Visualizations,4,10,,,10,,,11,,,11,,,12,,,12,,,
