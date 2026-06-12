@@ -1,21 +1,21 @@
 ,,Access,,,Discovery,,,Extracts Provided / Tables Created,,,Validation,,,Extracts / Tables Approved,,,Playbook/Documentation,,,
 Application,Current Week,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Risks/Issues
 Oracle ATP,6,11,,,11,,,12,,,12,,,13,,,13,,,Access risk
-Great Plains,6,3,3,100%,4,4,100%,5,5,100%,6,,,7,,,7,,,
-IQGeo/GESW,6,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,6,100%,7,6,100%,No EUR data found.
-IQGeo/Network Manager/My World (GIS)/ESRI,6,5,5,100%,5,5,100%,6,,,6,,,7,,,7,,,Access risk
-Medallia,6,8,,,8,,,9,,,9,,,10,,,10,,,
-Metasolv/M6,6,6,,,6,,,7,,,8,,,9,,,9,,,Access risk
+Great Plains,6,3,3,100%,4,4,100%,5,5,100%,6,,,7,,,7,,,Validation delayed
+IQGeo/GESW,6,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
+IQGeo/Network Manager/My World (GIS)/ESRI,6,5,5,100%,5,5,100%,6,6,100%,7,,,8,,,8,,,
+Medallia,6,8,6,100%,8,,,9,,,9,,,10,,,10,,,
+Metasolv/M6,6,6,,25%,6,,50%,7,,,8,,,9,,,9,,,Access risk
 Nautobot,6,18,,,18,,,19,,,19,,,20,,,20,,,
 OneStream,6,17,,,17,,,18,,,18,,,19,,,19,,,Access risk
-Oracle EBS (History),6,11,,,11,,,12,,,12,,,13,,,13,,,
-Oracle Fusion,6,4,4,100%,5,,50%,6,,,7,,,8,,,8,,,Access risk
-Salesforce (SF1),6,3,,50%,5,,50%,6,,,6,,,7,,,7,,,
+Oracle EBS (History),6,11,6,100%,11,,,12,,,12,,,13,,,13,,,
+Oracle Fusion,6,4,4,100%,5,,75%,6,,,7,,,8,,,8,,,
+Salesforce (SF1),6,3,,50%,5,,50%,6,,,6,,,7,,,7,,,Access is blocking dev work
 Salesforce (SF2),6,18,,,18,,,19,,,19,,,20,,,20,,,
-"ServiceNow CMDB, ITSM (ZSM)",6,8,,,8,,,9,,,9,,,10,,,10,,,
+"ServiceNow CMDB, ITSM (ZSM)",6,8,,25%,8,,25%,9,,,9,,,10,,,10,,,
 Sirion,6,18,,,18,,,19,,,19,,,20,,,20,,,
 TEOCO,6,15,,,15,,,16,,,16,,,17,,,17,,,Access risk
-Workday,6,4,4,100%,4,4,100%,5,5,100%,6,,,7,,,7,,,
-xMatters,6,14,,,14,,,15,,,15,,,16,,,16,,,
+Workday,6,4,4,100%,4,4,100%,5,5,100%,6,,,7,,,7,,,Validation delayed
+xMatters,6,14,,25%,14,,25%,15,,,15,,,16,,,16,,,
 zDAF Visualizations,6,14,,,14,,,15,,,15,,,16,,,16,,,
 ZDS,6,18,,,18,,,19,,,19,,,20,,,20,,,
