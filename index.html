@@ -1042,14 +1042,6 @@ function renderAtRisk(rows) {
     return;
   }
 
-  const rows_html = atRiskItems.map(item => `
-    <tr onclick="selectSource(${JSON.stringify(item.app)})">
-      <td>${item.app}</td>
-      <td><span class="at-risk-phase-pill">${item.phase}</span></td>
-      <td class="at-risk-weeks">Target <strong>Wk ${item.target}</strong></td>
-      <td class="at-risk-weeks">${item.progress !== '—' ? item.progress + ' complete' : 'No progress recorded'}</td>
-    </tr>`).join('');
-
   wrapper.innerHTML = `
     <table class="at-risk-table">
       <thead>
@@ -1060,8 +1052,20 @@ function renderAtRisk(rows) {
           <th>Progress</th>
         </tr>
       </thead>
-      <tbody>${rows_html}</tbody>
+      <tbody id="at-risk-tbody"></tbody>
     </table>`;
+
+  const tbody = document.getElementById('at-risk-tbody');
+  atRiskItems.forEach(item => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td>${item.app}</td>
+      <td><span class="at-risk-phase-pill">${item.phase}</span></td>
+      <td class="at-risk-weeks">Target <strong>Wk ${item.target}</strong></td>
+      <td class="at-risk-weeks">${item.progress !== '—' ? item.progress + ' complete' : 'No progress recorded'}</td>`;
+    tr.addEventListener('click', () => selectSource(item.app));
+    tbody.appendChild(tr);
+  });
 }
 
 // ── Render timeline ───────────────────────────────────────
