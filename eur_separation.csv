@@ -1,12 +1,12 @@
 ,,Access,,,Discovery,,,Extracts Provided / Tables Created,,,Validation,,,Extracts / Tables Approved,,,Playbook/Documentation,,,
 Application,Current Week,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Risks/Issues
-Oracle ATP,7,11,,,11,,25%,12,,,12,,,13,,,13,,,Access risk
-Great Plains,7,3,3,100%,4,4,100%,5,5,100%,6,,,7,,,7,,,Validation delayed
+Oracle ATP,7,11,,50%,11,,25%,12,,,12,,,13,,,13,,,Access risk
+Great Plains,7,3,3,100%,4,4,100%,5,5,100%,6,,0%,7,,,7,,,Validation delayed
 IQGeo/GESW,7,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
 IQGeo/Network Manager/My World (GIS)/ESRI,7,5,5,100%,5,5,100%,6,6,100%,7,,,8,,,8,,,
 Medallia,7,8,6,100%,8,,50%,9,,,9,,,10,,,10,,,SF1 access is blocking dev work
 Metasolv/M6,7,6,,25%,6,,50%,7,,,8,,,9,,,9,,,Access is blocking dev work
-Nautobot,7,18,,,18,,,19,,,19,,,20,,,20,,,
+Nautobot,7,18,,25%,18,,,19,,,19,,,20,,,20,,,
 OneStream,7,17,,,17,,,18,,,18,,,19,,,19,,,Access risk
 Oracle EBS (History),7,11,6,100%,11,,,12,,,12,,,13,,,13,,,
 Oracle Fusion,7,4,4,100%,5,7,100%,6,7,100%,7,,,8,,,8,,,
