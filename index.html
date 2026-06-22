@@ -451,6 +451,84 @@
   }
   .dp-progress-fill { height: 100%; border-radius: 3px; transition: width 0.4s; }
 
+  /* ── At Risk section ── */
+  .at-risk-section { margin-bottom: 28px; }
+
+  .at-risk-wrapper {
+    background: var(--surface);
+    border: 1px solid rgba(217,48,37,.25);
+    border-left: 4px solid var(--red);
+    border-radius: var(--card-radius);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+  }
+
+  .at-risk-empty {
+    padding: 16px 20px;
+    font-size: 13px;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .at-risk-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .at-risk-table thead th {
+    background: #fce8e6;
+    font-size: 9px;
+    font-weight: 700;
+    color: var(--red);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding: 9px 16px;
+    text-align: left;
+    border-bottom: 1px solid rgba(217,48,37,.15);
+    white-space: nowrap;
+  }
+
+  .at-risk-table tbody tr {
+    border-bottom: 1px solid rgba(217,48,37,.1);
+    transition: background 0.1s;
+    cursor: pointer;
+  }
+
+  .at-risk-table tbody tr:last-child { border-bottom: none; }
+  .at-risk-table tbody tr:hover { background: #fef6f5; }
+
+  .at-risk-table tbody td {
+    padding: 9px 16px;
+    font-size: 12px;
+    color: var(--text-mid);
+    white-space: nowrap;
+  }
+
+  .at-risk-table tbody td:first-child {
+    font-weight: 600;
+    color: var(--navy);
+  }
+
+  .at-risk-phase-pill {
+    display: inline-block;
+    background: var(--red-lt);
+    color: var(--red);
+    border: 1px solid rgba(217,48,37,.2);
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 8px;
+    margin-right: 4px;
+    white-space: nowrap;
+  }
+
+  .at-risk-weeks {
+    font-size: 11px;
+    color: var(--muted);
+  }
+
+  .at-risk-weeks strong { color: var(--red); font-weight: 600; }
+
   /* ── Timeline ── */
   .timeline-section { margin-bottom: 28px; }
 
@@ -780,6 +858,14 @@
     <div class="detail-phases" id="detail-phases"></div>
   </div>
 
+  <!-- At Risk -->
+  <div class="at-risk-section" id="at-risk-section">
+    <div class="section-title">At Risk</div>
+    <div class="at-risk-wrapper" id="at-risk-wrapper">
+      <div class="at-risk-empty">No data loaded</div>
+    </div>
+  </div>
+
   <!-- Timeline -->
   <div class="timeline-section">
     <div class="section-title">Phase Timeline</div>
@@ -891,12 +977,11 @@ function phaseStatus(targetWk, actualWk, progressStr, currentWk) {
   const t   = parseInt(targetWk);
   const pct = parsePct(progressStr);
   const cw  = parseInt(currentWk);
-  if (!t && pct === null) return 'not-started';
-  if (pct === 100) return 'complete';
-  if (pct !== null && pct < 100 && !actualWk) return 'in-progress';
-  if (pct !== null && pct < 100 && t && cw > t) return 'at-risk';
-  if (t && !pct) return 'not-started';
-  return 'not-started';
+  if (!t) return 'not-started';          // no target → nothing to track
+  if (pct === 100) return 'complete';    // 100% progress → complete regardless of week
+  if (cw > t) return 'at-risk';          // past target week and not complete → at risk
+  if (pct !== null && pct > 0) return 'in-progress'; // has progress, target still ahead
+  return 'not-started';                  // target in future, no progress yet
 }
 
 function overallStatus(row) {
@@ -929,6 +1014,54 @@ function renderMetrics(rows) {
     document.getElementById(`m-co-${i}`).textContent = complete;
     document.getElementById(`ms-${i}`).textContent   = `of ${total} sources`;
   });
+}
+
+// ── Render at-risk section ───────────────────────────────
+function renderAtRisk(rows) {
+  const wrapper = document.getElementById('at-risk-wrapper');
+  const atRiskItems = [];
+
+  rows.forEach(row => {
+    const app = row['Application'];
+    const cw  = parseInt(row['Current Week']) || CURRENT_WEEK;
+    PHASES.forEach(ph => {
+      const s = phaseStatus(row[`${ph}|Target Week`], row[`${ph}|Actual Week`], row[`${ph}|Progress`], cw);
+      if (s === 'at-risk') {
+        atRiskItems.push({
+          app,
+          phase: ph,
+          target: row[`${ph}|Target Week`] || '—',
+          progress: row[`${ph}|Progress`] || '—',
+        });
+      }
+    });
+  });
+
+  if (!atRiskItems.length) {
+    wrapper.innerHTML = '<div class="at-risk-empty">✓ No at-risk tasks</div>';
+    return;
+  }
+
+  const rows_html = atRiskItems.map(item => `
+    <tr onclick="selectSource(${JSON.stringify(item.app)})">
+      <td>${item.app}</td>
+      <td><span class="at-risk-phase-pill">${item.phase}</span></td>
+      <td class="at-risk-weeks">Target <strong>Wk ${item.target}</strong></td>
+      <td class="at-risk-weeks">${item.progress !== '—' ? item.progress + ' complete' : 'No progress recorded'}</td>
+    </tr>`).join('');
+
+  wrapper.innerHTML = `
+    <table class="at-risk-table">
+      <thead>
+        <tr>
+          <th>Source</th>
+          <th>Phase</th>
+          <th>Target Week</th>
+          <th>Progress</th>
+        </tr>
+      </thead>
+      <tbody>${rows_html}</tbody>
+    </table>`;
 }
 
 // ── Render timeline ───────────────────────────────────────
@@ -1099,6 +1232,7 @@ function selectSource(app) {
   selectedSource = app;
   document.getElementById('source-select').value = app;
   const filtered = app === 'ALL' ? allRows : allRows.filter(r => r['Application'] === app);
+  renderAtRisk(filtered);
   renderTimeline(filtered);
   renderTable(allRows);
   renderDetail(app === 'ALL' ? null : (filtered[0] || null));
@@ -1131,6 +1265,7 @@ function initFromCSV(text, filename) {
     sel.value = 'ALL';
 
     renderMetrics(allRows);
+    renderAtRisk(allRows);
     renderTimeline(allRows);
     renderTable(allRows);
     renderDetail(null);
