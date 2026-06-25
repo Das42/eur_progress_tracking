@@ -1,21 +1,21 @@
 ,,Access,,,Discovery,,,Extracts Provided / Tables Created,,,Validation,,,Extracts / Tables Approved,,,Playbook/Documentation,,,
 Application,Current Week,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Risks/Issues
-Oracle ATP,7,11,,50%,11,,25%,12,,,12,,,13,,,13,,,Access risk
-Great Plains,7,3,3,100%,4,4,100%,5,5,100%,6,,0%,7,,,7,,,Validation delayed
-IQGeo/GESW,7,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
-IQGeo/Network Manager/My World (GIS)/ESRI,7,5,5,100%,5,5,100%,6,6,100%,7,,,8,,,8,,,
-Medallia,7,8,6,100%,8,,50%,9,,,9,,,10,,,10,,,SF1 access is blocking dev work
-Metasolv/M6,7,6,,25%,6,,50%,7,,,8,,,9,,,9,,,Access is blocking dev work
-Nautobot,7,18,,25%,18,,,19,,,19,,,20,,,20,,,
-OneStream,7,17,,,17,,,18,,,18,,,19,,,19,,,Access risk
-Oracle EBS (History),7,11,6,100%,11,,,12,,,12,,,13,,,13,,,
-Oracle Fusion,7,4,4,100%,5,7,100%,6,7,100%,7,,,8,,,8,,,
-Salesforce (SF1),7,3,7,100%,5,,50%,6,,,6,,,7,,,7,,,Access is blocking dev work
-Salesforce (SF2),7,18,,,18,,,19,,,19,,,20,,,20,,,
-"ServiceNow CMDB, ITSM (ZSM)",7,8,,25%,8,,25%,9,,,9,,,10,,,10,,,Access is blocking dev work
-Sirion,7,18,,,18,,,19,,,19,,,20,,,20,,,
-TEOCO,7,15,,,15,,,16,,,16,,,17,,,17,,,Access risk
-Workday,7,4,4,100%,4,4,100%,5,5,100%,6,,,7,,,7,,,Validation delayed
-xMatters,7,14,,25%,14,,25%,15,,,15,,,16,,,16,,,
-zDAF Visualizations,7,14,7,100%,14,,,15,,,15,,,16,,,16,,,
-ZDS,7,18,,,18,,,19,,,19,,,20,,,20,,,
+Oracle ATP,8,11,,50%,11,,25%,12,,,12,,,13,,,13,,,Access risk
+Great Plains,8,3,3,100%,4,4,100%,5,5,100%,6,,0%,7,,,7,,,Validation delayed
+IQGeo/GESW,8,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
+IQGeo/Network Manager/My World (GIS)/ESRI,8,5,5,100%,5,5,100%,6,6,100%,7,,,8,,,8,,,
+Medallia,8,8,6,100%,8,,50%,9,,,9,,,10,,,10,,,SF1 access is blocking dev work
+Metasolv/M6,8,6,,25%,6,,50%,7,,,8,,,9,,,9,,,Access is blocking dev work
+Nautobot,8,18,,25%,18,,,19,,,19,,,20,,,20,,,
+OneStream,8,17,,,17,,,18,,,18,,,19,,,19,,,Access risk
+Oracle EBS (History),8,11,6,100%,11,,,12,,,12,,,13,,,13,,,
+Oracle Fusion,8,4,4,100%,5,7,100%,6,7,100%,7,,,8,,,8,,,
+Salesforce (SF1),8,3,7,100%,5,,50%,6,,,6,,,7,,,7,,,Access is blocking dev work
+Salesforce (SF2),8,18,,,18,,,19,,,19,,,20,,,20,,,
+"ServiceNow CMDB, ITSM (ZSM)",8,8,,25%,8,,25%,9,,,9,,,10,,,10,,,Access is blocking dev work
+Sirion,8,18,,,18,,,19,,,19,,,20,,,20,,,
+TEOCO,8,15,,,15,,,16,,,16,,,17,,,17,,,Access risk
+Workday,8,4,4,100%,4,4,100%,5,5,100%,6,,,7,,,7,,,Validation delayed
+xMatters,8,14,,25%,14,,25%,15,,,15,,,16,,,16,,,
+zDAF Visualizations,8,14,7,100%,14,,25%,15,,25%,15,,,16,,,16,,,
+ZDS,8,18,,,18,,,19,,,19,,,20,,,20,,,
