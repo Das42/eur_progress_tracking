@@ -1,21 +1,21 @@
 ,,Access,,,Discovery,,,Extracts Provided / Tables Created,,,Validation,,,Extracts / Tables Approved,,,Playbook/Documentation,,,
 Application,Current Week,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Risks/Issues
-Oracle ATP,8,11,,75%,11,,25%,12,,,12,,,13,,,13,,,
-Great Plains,8,3,3,100%,4,4,100%,5,5,100%,6,,75%,7,,,7,,,
-IQGeo/GESW,8,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
-IQGeo/Network Manager/My World (GIS)/ESRI,8,5,5,100%,5,5,100%,6,6,100%,7,,,8,,,8,,,
-Medallia,8,8,6,100%,8,,50%,9,,,9,,,10,,,10,,,SF1 access is blocking dev work
-Metasolv/M6,8,6,8,100%,6,,50%,7,,,8,,,9,,,9,,,
-Nautobot,8,18,,25%,18,,,19,,,19,,,20,,,20,,,
-OneStream,8,17,,,17,,,18,,,18,,,19,,,19,,,Access risk
-Oracle EBS (History),8,11,6,100%,11,,,12,,,12,,,13,,,13,,,
-Oracle Fusion,8,4,4,100%,5,7,100%,6,7,100%,7,,,8,,,8,,,
-Salesforce (SF1),8,3,7,100%,5,,50%,6,,,6,,,7,,,7,,,
-Salesforce (SF2),8,18,,,18,,,19,,,19,,,20,,,20,,,
-"ServiceNow CMDB, ITSM (ZSM)",8,8,,50%,8,,25%,9,,,9,,,10,,,10,,,Access is blocking dev work
-Sirion,8,18,,,18,,,19,,,19,,,20,,,20,,,
-TEOCO,8,15,,25%,15,,,16,,,16,,,17,,,17,,,Access risk
-Workday,8,4,4,100%,4,4,100%,5,5,100%,6,,,7,,,7,,,Validation delayed
-xMatters,8,14,,25%,14,,25%,15,,,15,,,16,,,16,,,
-zDAF Visualizations,8,14,7,100%,14,,75%,15,,25%,15,,,16,,,16,,,
-ZDS,8,18,,25%,18,,,19,,,19,,,20,,,20,,,
+Oracle ATP,9,11,,75%,11,,25%,12,,,12,,,13,,,13,,,
+Great Plains,9,3,3,100%,4,4,100%,5,5,100%,6,,75%,7,,,7,,,
+IQGeo/GESW,9,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
+IQGeo/Network Manager/My World (GIS)/ESRI,9,5,5,100%,5,5,100%,6,6,100%,7,,,8,,,8,,,
+Medallia,9,8,6,100%,8,9,100%,9,9,100%,9,,,10,,,10,,,SF1 access is blocking dev work
+Metasolv/M6,9,6,8,100%,6,9,100%,7,9,100%,8,,,9,,,9,,,
+Netcracker,9,18,,0%,18,,,19,,,19,,,20,,,20,,,
+OneStream,9,17,,0%,17,,,18,,,18,,,19,,,19,,,Access risk
+Oracle EBS (History),9,11,6,100%,11,,,12,,,12,,,13,,,13,,,
+Oracle Fusion,9,4,4,100%,5,7,100%,6,7,100%,7,,,8,,,8,,,
+Salesforce (SF1),9,3,7,100%,5,9,100%,6,9,100%,6,,,7,,,7,,,
+Salesforce (SF2),9,18,,0%,18,,,19,,,19,,,20,,,20,,,
+"ServiceNow CMDB, ITSM (ZSM)",9,8,,50%,8,,25%,9,,,9,,,10,,,10,,,Still loading tables.
+Sirion,9,18,,0%,18,,,19,,,19,,,20,,,20,,,
+TEOCO,9,15,,50%,15,,,16,,,16,,,17,,,17,,,Will has done some research and we're reviewing
+Workday,9,4,4,100%,4,4,100%,5,5,100%,6,,,7,,,7,,,Validation delayed
+xMatters,9,14,,25%,14,,25%,15,,,15,,,16,,,16,,,
+zDAF Visualizations,9,14,7,100%,14,9,100%,15,9,100%,15,,,16,,,16,,,
+ZDS,9,18,,25%,18,,,19,,,19,,,20,,,20,,,
