@@ -1,21 +1,21 @@
 ,,Access,,,Discovery,,,Extracts Provided / Tables Created,,,Validation,,,Extracts / Tables Approved,,,Playbook/Documentation,,,
-Application,Current Week,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Risks/Issues
-Oracle ATP,9,11,,75%,11,,25%,12,,,12,,,13,,,13,,,
-Great Plains,9,3,3,100%,4,4,100%,5,5,100%,6,,75%,7,,,7,,,
-IQGeo/GESW,9,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
-IQGeo/Network Manager/My World (GIS)/ESRI,9,5,5,100%,5,5,100%,6,6,100%,7,,,8,,,8,,,
-Medallia,9,8,6,100%,8,9,100%,9,9,100%,9,,,10,,,10,,,SF1 access is blocking dev work
-Metasolv/M6,9,6,8,100%,6,9,100%,7,9,100%,8,,,9,,,9,,,
-Netcracker,9,18,,0%,18,,,19,,,19,,,20,,,20,,,
-OneStream,9,17,,0%,17,,,18,,,18,,,19,,,19,,,Access risk
-Oracle EBS (History),9,11,6,100%,11,,,12,,,12,,,13,,,13,,,
-Oracle Fusion,9,4,4,100%,5,7,100%,6,7,100%,7,,,8,,,8,,,
-Salesforce (SF1),9,3,7,100%,5,9,100%,6,9,100%,6,,,7,,,7,,,
-Salesforce (SF2),9,18,,0%,18,,,19,,,19,,,20,,,20,,,
-"ServiceNow CMDB, ITSM (ZSM)",9,8,,50%,8,,25%,9,,,9,,,10,,,10,,,Still loading tables.
-Sirion,9,18,,0%,18,,,19,,,19,,,20,,,20,,,
-TEOCO,9,15,,50%,15,,,16,,,16,,,17,,,17,,,Will has done some research and we're reviewing
-Workday,9,4,4,100%,4,4,100%,5,5,100%,6,,,7,,,7,,,Validation delayed
-xMatters,9,14,,25%,14,,25%,15,,,15,,,16,,,16,,,
-zDAF Visualizations,9,14,7,100%,14,9,100%,15,9,100%,15,,,16,,,16,,,
-ZDS,9,18,,25%,18,,,19,,,19,,,20,,,20,,,
+Application,Current Week,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Risks/Issues/Notes
+Oracle ATP,10,11,10,100%,11,,50%,12,,,14,,,15,,,15,,,
+Great Plains,10,3,3,100%,4,4,100%,5,5,100%,13,,75%,14,,,14,,,Missing records provided and we're back to validation.
+IQGeo/GESW,10,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
+IQGeo/Network Manager/My World (GIS)/ESRI,10,5,5,100%,5,5,100%,6,6,100%,11,,,12,,,12,,,
+Medallia,10,8,6,100%,8,9,100%,9,9,100%,13,,,14,,,14,,,
+Metasolv/M6,10,6,8,100%,6,9,100%,7,9,100%,13,,,14,,,14,,,
+Netcracker,10,18,,0%,18,,,19,,,19,,,20,,,20,,,Uncertainty if in scope or not
+OneStream,10,16,,0%,16,,,17,,,18,,,19,,,19,,,Access risk
+Oracle EBS (History),10,11,6,100%,11,,,12,,,15,,,16,,,16,,,
+Oracle Fusion,10,4,4,100%,5,7,100%,6,7,100%,13,,25%,14,,,14,,,
+Salesforce (SF1),10,3,7,100%,5,9,100%,6,9,100%,12,,,13,,,13,,,
+Salesforce (SF2),10,18,,0%,18,,,19,,,19,,,20,,,20,,,
+"ServiceNow CMDB, ITSM (ZSM)",10,12,,50%,12,,25%,14,,,16,,,17,,,17,,,Still loading tables.
+Sirion,10,18,,0%,18,,,19,,,19,,,20,,,20,,,
+TEOCO,10,15,,50%,15,,,16,,,17,,,18,,,18,,,Will meet with Will when re returns to discuss findings.
+Workday,10,4,4,100%,4,4,100%,5,5,100%,12,,,13,,,13,,,
+xMatters,10,13,,25%,13,,25%,14,,,16,,,17,,,17,,,
+zDAF Visualizations,10,14,7,100%,14,9,100%,15,9,100%,11,,50%,12,,,12,,,
+ZDS,10,17,,25%,17,,,18,,,19,,,20,,,20,,,
