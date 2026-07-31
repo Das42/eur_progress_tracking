@@ -1,21 +1,19 @@
 ,,Access,,,Discovery,,,Extracts Provided / Tables Created,,,Validation,,,Extracts / Tables Approved,,,Playbook/Documentation,,,
 Application,Current Week,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Risks/Issues
-Oracle ATP,12,11,10,100%,11,11,100%,12,11,100%,14,,,15,,,15,,,
-Great Plains,12,3,3,100%,4,4,100%,5,5,100%,13,,75%,14,,75%,14,,,Missing records provided and we're back to validation.
-IQGeo/GESW,12,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
-IQGeo/Network Manager/My World (GIS)/ESRI,12,5,5,100%,5,5,100%,6,6,100%,11,,50%,12,,50%,12,,,
-Medallia,12,8,6,100%,8,9,100%,9,9,100%,13,,,14,,,14,,,
-Metasolv/M6,12,6,8,100%,6,9,100%,7,9,100%,13,,50%,14,,,14,,,
-Netcracker,12,18,,0%,18,,,19,,,19,,,20,,,20,,,Uncertainty if in scope or not
-OneStream,12,16,,0%,16,,,17,,,18,,,19,,,19,,,Don't have a clear path to accessing all data.
-Oracle EBS (History),12,11,6,100%,13,,,14,,,16,,,17,,,17,,,
-Oracle Fusion,12,4,4,100%,5,7,100%,6,7,100%,13,,50%,14,,50%,14,,,
-Salesforce (SF1),12,3,7,100%,5,9,100%,6,9,100%,12,,75%,13,,50%,13,,,
-Salesforce (SF2),12,18,,0%,18,,,19,,,19,,,20,,,20,,,Uncertainty if in scope or not
-"ServiceNow CMDB, ITSM (ZSM)",12,12,,50%,12,,75%,14,,15%,16,,,17,,,17,,,Still loading tables.
-Sirion,12,18,,0%,18,,,19,,,19,,,20,,,20,,,Uncertainty if in scope or not
-TEOCO,12,15,,50%,15,,,16,,,17,,,18,,,18,,,Don't have a clear path to accessing all data.
-Workday,12,4,4,100%,4,4,100%,5,5,100%,12,,90%,13,,90%,13,,,
-xMatters,12,13,12,100%,13,,25%,14,,,16,,,17,,,17,,,
-zDAF Visualizations,12,14,7,100%,14,9,100%,15,9,100%,11,11,100%,12,11,100%,12,,20%,
-ZDS,12,17,,50%,17,,,18,,,19,,,20,,,20,,,Uncertainty if in scope or not
+Oracle ATP,13,11,10,100%,11,11,100%,12,11,100%,14,,25%,15,,20%,15,,,
+Great Plains,13,3,3,100%,4,4,100%,5,5,100%,13,,75%,14,,75%,14,,,Missing records provided and we're back to validation.
+IQGeo/GESW,13,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
+IQGeo/Network Manager/My World (GIS)/ESRI,13,5,5,100%,5,5,100%,6,6,100%,11,,80%,12,,50%,12,,,
+Medallia,13,8,6,100%,8,9,100%,9,9,100%,13,,,14,,,14,,,
+Metasolv/M6,13,6,8,100%,6,9,100%,7,9,100%,13,,50%,14,,,14,,,
+Netcracker,13,18,,0%,18,,,19,,,19,,,20,,,20,,,Waiting for confirmation on if dropping from scope or not.
+OneStream,13,16,,0%,16,,,17,,,18,,,19,,,19,,,Don't have a clear path to accessing all data.
+Oracle EBS (History),13,11,6,100%,13,,,14,,,16,,,17,,,17,,,
+Oracle Fusion,13,4,4,100%,5,7,100%,6,7,100%,13,,90%,14,,90%,14,,,
+Salesforce (SF1),13,3,7,100%,5,9,100%,6,9,100%,12,,75%,13,,50%,13,,,
+"ServiceNow CMDB, ITSM (ZSM)",13,12,,50%,12,,75%,14,,15%,16,,,17,,,17,,,Still loading tables.
+TEOCO,13,15,,50%,15,,,16,,,17,,,18,,,18,,,Don't have a clear path to accessing all data. Need to talk to SME
+Workday,13,4,4,100%,4,4,100%,5,5,100%,12,,90%,13,,90%,13,,,Waiting final confirmation from HR
+xMatters,13,13,12,100%,13,,25%,14,,,16,,,17,,,17,,,
+zDAF Visualizations,13,14,7,100%,14,9,100%,15,9,100%,11,11,100%,12,11,100%,12,,20%,
+ZDS,13,17,,50%,17,,,18,,,19,,,20,,,20,,,Uncertainty if in scope or not
