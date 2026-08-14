@@ -1,19 +1,18 @@
 ,,Access,,,Discovery,,,Extracts Provided / Tables Created,,,Validation,,,Extracts / Tables Approved,,,Playbook/Documentation,,,
 Application,Current Week,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Risks/Issues
-Oracle ATP,14,11,10,100%,11,11,100%,12,11,100%,14,,50%,15,,20%,15,,,
-Great Plains,14,3,3,100%,4,4,100%,5,5,100%,13,,90%,14,,75%,14,,,Missing records provided and we're back to validation.
-IQGeo/GESW,14,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
-IQGeo/Network Manager/My World (GIS)/ESRI,14,5,5,100%,5,5,100%,6,6,100%,11,,80%,12,,50%,12,,,
-Medallia,14,8,6,100%,8,9,100%,9,9,100%,13,,,14,,,14,,,
-Metasolv/M6,14,6,8,100%,6,9,100%,7,9,100%,13,,50%,14,,,14,,,
-Netcracker,14,18,,0%,18,,,19,,,19,,,20,,,20,,,Waiting for confirmation on if dropping from scope or not.
-OneStream,14,16,,0%,16,,,17,,,18,,,19,,,19,,,Hopeful to receive data within a couple weeks and it should already be tagged.
-Oracle EBS (History),14,11,6,100%,13,,50%,14,,,16,,,17,,,17,,,
-Oracle Fusion,14,4,4,100%,5,7,100%,6,7,100%,13,14,100%,14,,100%,14,14,100%,
-Salesforce (SF1),14,3,7,100%,5,9,100%,6,9,100%,12,,75%,13,,50%,13,,,
-"ServiceNow CMDB, ITSM (ZSM)",14,12,,50%,12,,75%,14,,15%,16,,,17,,,17,,,Still loading tables.
-TEOCO,14,15,,50%,15,,50%,16,,,17,,,18,,,18,,,Don't have a clear path to accessing all data. Need to talk to SME
-Workday,14,4,4,100%,4,4,100%,5,5,100%,12,14,100%,13,,90%,13,,,
-xMatters,14,13,12,100%,13,,25%,14,,,16,,,17,,,17,,,
-zDAF Visualizations,14,14,7,100%,14,9,100%,15,9,100%,11,11,100%,12,11,100%,12,,90%,
-ZDS,14,17,,50%,17,,,18,,,19,,,20,,,20,,,Remain in Scope for Location master - proposed to have BAU team productionalize.
+Oracle ATP,15,11,10,100%,11,11,100%,12,11,100%,14,,70%,15,,20%,15,,,
+Great Plains,15,3,3,100%,4,4,100%,5,5,100%,13,15,100%,14,,75%,14,,,
+IQGeo/GESW,15,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
+IQGeo/Network Manager/My World (GIS)/ESRI,15,5,5,100%,5,5,100%,6,6,100%,11,,80%,12,,50%,12,,,
+Medallia,15,8,6,100%,8,9,100%,9,9,100%,13,,,14,,,14,,,
+Metasolv/M6,15,6,8,100%,6,9,100%,7,9,100%,13,,50%,14,,,14,,,
+OneStream,15,16,,0%,16,,,17,,,18,,,19,,,19,,,Hopeful to receive data within a couple weeks and it should already be tagged.
+Oracle EBS (History),15,11,6,100%,13,15,100%,14,15,100%,16,,,17,,,17,,,
+Oracle Fusion,15,4,4,100%,5,7,100%,6,7,100%,13,14,100%,14,14,100%,14,14,100%,
+Salesforce (SF1),15,3,7,100%,5,9,100%,6,9,100%,12,,75%,13,,50%,13,,,
+"ServiceNow CMDB, ITSM (ZSM)",15,12,,50%,12,,75%,14,,15%,16,,,17,,,17,,,Still loading tables.
+TEOCO,15,15,,50%,15,,50%,16,,15%,17,,,18,,,18,,,Don't have a clear path to accessing all data. Need to talk to SME
+Workday,15,4,4,100%,4,4,100%,5,5,100%,12,14,100%,13,,90%,13,,,
+xMatters,15,13,12,100%,13,15,100%,14,15,100%,16,,15%,17,,,17,,,
+zDAF Visualizations,15,14,7,100%,14,9,100%,15,9,100%,11,11,100%,12,11,100%,12,,90%,
+ZDS,15,17,,50%,17,,,18,,,19,,,20,,,20,,,Remain in Scope for Location master - proposed to have BAU team productionalize.
