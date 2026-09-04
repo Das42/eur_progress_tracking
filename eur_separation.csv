@@ -1,18 +1,18 @@
 ,,Access,,,Discovery,,,Extracts Provided / Tables Created,,,Validation,,,Extracts / Tables Approved,,,Playbook/Documentation,,,
 Application,Current Week,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Target Week,Actual Week,Progress,Risks/Issues
-Oracle ATP,17,11,10,100%,11,11,100%,12,11,100%,14,16,100%,15,16,100%,15,,75%,
-Great Plains,17,3,3,100%,4,4,100%,5,5,100%,13,15,100%,14,15,100%,14,,75%,
-IQGeo/GESW,17,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
-IQGeo/Network Manager/My World (GIS)/ESRI,17,5,5,100%,5,5,100%,6,6,100%,11,,90%,12,,50%,12,,,Validation taking longer than expected.
-Medallia,17,8,6,100%,8,9,100%,9,9,100%,13,,,14,,,14,,,
-Metasolv/M6,17,6,8,100%,6,9,100%,7,9,100%,13,,30%,14,,,14,,,
-OneStream,17,16,15,100%,16,,50%,17,,,18,,,19,,,19,,,
-Oracle EBS (History),17,11,6,100%,13,15,100%,14,15,100%,16,,15%,17,,,17,,,
-Oracle Fusion,17,4,4,100%,5,7,100%,6,7,100%,13,14,100%,14,14,100%,14,14,100%,
-Salesforce (SF1),17,3,7,100%,5,9,100%,6,9,100%,12,,70%,13,,50%,13,,,Validation taking longer than expected.
-"ServiceNow CMDB, ITSM (ZSM)",17,12,16,100%,12,,90%,14,,15%,16,,,17,,,17,,,Still loading tables.
-TEOCO,17,15,15,100%,15,16,100%,16,16,100%,17,,,18,,,18,,,
-Workday,17,4,4,100%,4,4,100%,5,5,100%,12,14,100%,13,14,100%,13,,10%,
-xMatters,17,13,12,100%,13,15,100%,14,15,100%,16,,20%,17,,,17,,,
-zDAF Visualizations,17,14,7,100%,14,9,100%,15,9,100%,11,11,100%,12,11,100%,12,,90%,
-ZDS,17,17,,50%,17,,,18,,,19,,,20,,,20,,,Data in prod and tagged.
+Oracle ATP,18,11,10,100%,11,11,100%,12,11,100%,14,16,100%,15,16,100%,15,,75%,
+Great Plains,18,3,3,100%,4,4,100%,5,5,100%,13,15,100%,14,15,100%,14,,75%,
+IQGeo/GESW,18,5,5,100%,5,5,100%,6,5,100%,6,5,100%,7,5,100%,7,5,100%,No EUR data found.
+IQGeo/Network Manager/My World (GIS)/ESRI,18,5,5,100%,5,5,100%,6,6,100%,11,,90%,12,,90%,12,,,
+Medallia,18,8,6,100%,8,9,100%,9,9,100%,13,18,100%,14,,10%,14,,,
+Metasolv/M6,18,6,8,100%,6,9,100%,7,9,100%,13,,90%,14,,90%,14,,,
+OneStream,18,16,15,100%,16,18,100%,17,18,100%,18,,10%,19,,10%,19,,,
+Oracle EBS (History),18,11,6,100%,13,15,100%,14,15,100%,16,,80%,17,,80%,17,,,
+Oracle Fusion,18,4,4,100%,5,7,100%,6,7,100%,13,14,100%,14,14,100%,14,14,100%,
+Salesforce (SF1),18,3,7,100%,5,9,100%,6,9,100%,12,,60%,13,,60%,13,,,
+"ServiceNow CMDB, ITSM (ZSM)",18,12,16,100%,12,,90%,14,,15%,16,,0%,17,,0%,17,,,Working to create extracts based on what we have.
+TEOCO,18,15,15,100%,15,16,100%,16,16,100%,17,,90%,18,,90%,18,,,
+Workday,18,4,4,100%,4,4,100%,5,5,100%,12,14,100%,13,14,100%,13,,10%,
+xMatters,18,13,12,100%,13,15,100%,14,15,100%,16,18,100%,17,,20%,17,,,
+zDAF Visualizations,18,14,7,100%,14,9,100%,15,9,100%,11,11,100%,12,11,100%,12,18,100%,Dimitar confirmed no runbook is needed
+ZDS,18,17,17,100%,17,17,100%,18,17,100%,19,18,100%,20,18,100%,20,,10%,
